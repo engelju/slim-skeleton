@@ -1,0 +1,10 @@
+/vendor/
+/settings/*
+!/settings/db.sql
+/storage/cache/*
+!/storage/cache/templates
+/storage/logs/*
+/storage/sessions/*
+.DS_STORE
+.idea
+composer.lock
