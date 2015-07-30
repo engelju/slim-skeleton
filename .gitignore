@@ -4,7 +4,9 @@
 /storage/cache/*
 !/storage/cache/templates
 /storage/logs/*
+!/storage/logs/.gitkeep
 /storage/sessions/*
+!/storage/sessions/.gitkeep
 .DS_STORE
 .idea
 composer.lock
