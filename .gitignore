@@ -10,3 +10,4 @@
 .DS_STORE
 .idea
 composer.lock
+.sass-cache/
