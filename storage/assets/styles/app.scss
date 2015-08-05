@@ -1,0 +1,119 @@
+@import "../bootstrap/assets/stylesheets/bootstrap";
+
+$color: #EEFF41;
+
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  //margin-top: 0;
+  //margin-bottom: 0;
+  line-height: 40px;
+}
+
+.bang {
+  color: $color;
+  text-shadow:  0   1px 0 #ccc,
+                0   2px 0 #000,
+                0   3px 0 #444,
+                0   4px 0 #333,
+                0   5px 0 #000,
+                0   6px 1px rgba(0,0,0,.1),
+                0   0   5px rgba(0,0,0,.1),
+                0   1px 3px rgba(0,0,0,.3),
+                0   3px 5px rgba(0,0,0,.2),
+                0   5px 10px rgba(0,0,0,.25),
+                0  10px 10px rgba(0,0,0,.2),
+                0  20px 20px rgba(0,0,0,.15);
+}
+h3.bang {
+  font-family: 'Luckiest Guy';
+  font-size: 4em;
+}
+nav.bang a {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 2.3em;
+  color: $color;
+}
+
+.nav > li > a {
+  margin: 5px;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: $color;
+  background-color: #eeeeee;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
